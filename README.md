@@ -1,8 +1,42 @@
+# React Native & TypeScript - Pokedex App
+
+---
+
+# Temas puntuales de la sección
+
+### ¿Qué veremos en esta sección?
+
+Esta aplicación tiene el objetivo de crear una Pokedex la cual es una aplicación para mostrar información de Pokemones usando su API.
+
+Puntualmente veremos:
+
+    - Trabajar con diferentes navigators
+    - Consumir APIs
+    - Reutilización de componentes
+    - InfiniteScroll
+    - Diseño moderno
+    - Carga perezosa de imágenes
+    -
+
+### \* PASOS A REALIZAR:
+
+1. ejemplo
+2. ejemplo
+3. ejemplo
+
+### \* RECURSOS A USAR:
+
+- Api de Pokemon: https://pokeapi.co/
+- ejemplo
+- ejemplo
+
+---
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
