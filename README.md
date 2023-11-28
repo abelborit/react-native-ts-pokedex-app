@@ -27,7 +27,10 @@ Puntualmente veremos:
 ### \* RECURSOS A USAR:
 
 - Api de Pokemon: https://pokeapi.co/
-- ejemplo
+- Axios: https://www.npmjs.com/package/axios:
+  - `npm i axios`
+- react-native-image-colors (https://github.com/osamaqarem/react-native-image-colors)
+  - `npm i react-native-image-colors`
 - ejemplo
 
 ---
