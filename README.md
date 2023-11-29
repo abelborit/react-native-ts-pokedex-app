@@ -11,7 +11,7 @@ Esta aplicación tiene el objetivo de crear una Pokedex la cual es una aplicaci�
 Puntualmente veremos:
 
     - Trabajar con diferentes navigators
-    - Consumir APIs
+    - Consumir APIs con axios
     - Reutilización de componentes
     - InfiniteScroll
     - Diseño moderno
@@ -26,7 +26,34 @@ Puntualmente veremos:
   - `npm i axios`
 - react-native-image-colors (https://github.com/osamaqarem/react-native-image-colors)
   - `npm i react-native-image-colors`
-- ejemplo
+
+---
+
+### \* IMÁGENES DE LA APLICACIÓN:
+
+<style>
+  .image-container {
+    text-align: center;
+  }
+  .image-container img {
+    margin: 15px;
+  }
+</style>
+
+<div class="image-container">
+  <img src="./screenshotsApp/Screenshot_1701278247.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278258.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278323.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278324.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278351.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278357.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278362.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278367.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278381.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278386.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278397.png" alt="image" width="200">
+  <img src="./screenshotsApp/Screenshot_1701278419.png" alt="image" width="200">
+</div>
 
 ---
 
