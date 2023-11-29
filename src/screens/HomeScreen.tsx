@@ -55,6 +55,7 @@ export const HomeScreen = React.memo(() => {
             <View
               style={{
                 marginVertical: 15,
+                marginBottom: 80,
                 justifyContent: 'center',
                 alignItems: 'center',
               }}>
