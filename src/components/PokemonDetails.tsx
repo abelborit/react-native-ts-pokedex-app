@@ -122,7 +122,8 @@ export const PokemonDetails = ({pokemonDetails}: PokemonDetailsProps) => {
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
-            marginVertical: 20,
+            marginTop: 20,
+            marginBottom: 80,
           }}>
           <Image
             source={require('../assets/pokeball.png')}
@@ -144,7 +145,7 @@ export const PokemonDetails = ({pokemonDetails}: PokemonDetailsProps) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    backgroundColor: 'rgba(0, 0, 0, 0.05)',
   },
   infoContainer: {
     marginVertical: 20,
@@ -171,7 +172,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
   },
   pokeballCard: {
-    width: 35,
-    height: 35,
+    width: 33,
+    height: 33,
   },
 });

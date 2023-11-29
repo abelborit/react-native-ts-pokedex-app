@@ -47,7 +47,7 @@ export const PokemonScreen = ({navigation, route}: PokemonScreenProps) => {
             left: insets.left + 15,
           }}
           activeOpacity={0.8}
-          onPress={() => navigation.navigate('HomeScreen')}>
+          onPress={() => navigation.pop()}>
           <Icon name="arrow-back-outline" size={35} color="#fff" />
         </TouchableOpacity>
 
@@ -78,6 +78,7 @@ export const PokemonScreen = ({navigation, route}: PokemonScreenProps) => {
         style={{
           ...styles.pokemonNameContainer,
           marginTop: dimensions.height > dimensions.width ? 25 : 25,
+          marginBottom: 15,
         }}>
         <Text
           style={{

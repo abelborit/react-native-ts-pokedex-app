@@ -1,17 +1,20 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-// import {StyleSheet} from 'react-native';
+import {Provider as PaperProvider} from 'react-native-paper';
 import {NavigationContainer} from '@react-navigation/native';
-import {StackNavigator} from './src/navigators/StackNavigator';
+import {DefaultTheme} from './src/theme/appTheme';
+import {BottomTabsNavigator} from './src/navigators/BottomTabsNavigator';
+
+const theme = {
+  ...DefaultTheme,
+};
 
 export const App = () => {
   return (
-    <NavigationContainer>
-      <StackNavigator />
-    </NavigationContainer>
+    <PaperProvider theme={theme}>
+      <NavigationContainer>
+        <BottomTabsNavigator />
+      </NavigationContainer>
+    </PaperProvider>
   );
 };
-
-// const styles = StyleSheet.create({
-//   container: {},
-// });

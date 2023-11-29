@@ -6,7 +6,7 @@
 
 ### ¿Qué veremos en esta sección?
 
-Esta aplicación tiene el objetivo de crear una Pokedex la cual es una aplicación para mostrar información de Pokemones usando su API.
+Esta aplicación tiene el objetivo de crear una Pokedex la cual es una aplicación para mostrar información de Pokemones usando su API. También crearemos un buscador de Pokemons por nombre o por ID, la idea es implementar un debouncer que en pocas palabras es poder disparar acciones después de unos segundos cuando la persona deja de escribir en una caja de texto.
 
 Puntualmente veremos:
 
@@ -16,13 +16,8 @@ Puntualmente veremos:
     - InfiniteScroll
     - Diseño moderno
     - Carga perezosa de imágenes
-    -
-
-### \* PASOS A REALIZAR:
-
-1. ejemplo
-2. ejemplo
-3. ejemplo
+    - Debouncer manual
+    - Buscador según name o id
 
 ### \* RECURSOS A USAR:
 

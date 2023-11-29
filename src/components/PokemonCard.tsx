@@ -103,6 +103,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   nameStyle: {
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
     fontWeight: 'bold',
     textTransform: 'capitalize',
     fontSize: 24,
@@ -111,9 +112,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   idStyle: {
-    fontSize: 22,
-    color: '#fff',
-    opacity: 0.5,
+    marginTop: 3,
+    fontSize: 16,
+    color: '#111',
+    opacity: 0.25,
     paddingHorizontal: 10,
   },
   imageContainer: {
